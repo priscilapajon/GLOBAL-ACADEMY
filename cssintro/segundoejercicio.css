@@ -1,0 +1,31 @@
+.lista-colores{
+    background-color: rgb(214, 210, 210);
+}
+
+#Rojo{
+    color: red;
+    margin: 10px;
+    padding: 10px;
+}
+
+#Verde{
+    color: rgb(46, 190, 46);
+    margin: 20px;
+    padding: 20px;
+}
+
+#Azul{
+    color: blue;
+    margin: 30px;
+    padding: 30px;
+}
+
+.btn-primary{
+    color: palevioletred;
+    background-color: aqua;
+}
+
+.btn-secondary{
+    color: rgb(243, 235, 237);
+    background-color: black;
+}

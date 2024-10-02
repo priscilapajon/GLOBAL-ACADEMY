@@ -1,0 +1,13 @@
+h1{
+    color: rgb(8, 8, 105);
+}
+
+.destacado{
+    color: red;
+    font-size: 28px;
+}
+
+#informacion{
+
+    color: green;
+}

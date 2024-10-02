@@ -1,0 +1,62 @@
+/*Selector universal que ayuda a darle los estilos de forma más amplia y potente*/
+
+*{
+    /*Vamos a quitarle los margenes*/
+    margin: 0%;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/* body{  */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif */
+
+
+/* } 
+Esto puede ser un ejemplo para aplicar a todo la fuente de la pagina para cambiarlo o lo podemos poner dentro del SELECTOR UNIVERSAL*/
+
+
+h1 {
+    color: violet;
+    background-color: rgb(179, 67, 67);
+}
+
+p {
+    color: blue
+}
+
+div { 
+    color: red;
+
+}
+p{
+    color:  orange;
+}
+
+/*Asi se hace un comentario*/
+/*Selector de clase ,siempre debo de ponerle el punto al inicio ,para que asi el programa lo pueda reconocer,para asi despues aplicarle la propiedad y debe de ser en minúscula*/
+
+.menu{
+    background-color: pink;
+
+    /*lA VENTAJA QUE TIENE ES QUE LO PUEDO APLICAR A OTRAS SECCIONES DE HTML QUE CONSIDERE QUE PUEDE LLEVAR LAS MISMAS PROPIEDADES*/
+}
+
+/*Selector ID ,que o "activo con el #*/
+
+#link1{
+    color: rgb(79, 238, 230);
+}
+
+#link2{
+    color: brown;
+}
+
+/* -----Cascada y especificidad------------------------------------- */
+
+#parrafo {
+    color: red;
+}
+
+.texto{
+    color: green;
+}
