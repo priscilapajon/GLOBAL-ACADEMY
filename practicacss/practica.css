@@ -1,0 +1,14 @@
+.banner{
+    background-image: url('saitama.png');
+    /* Si quiero le puedo poner un gradiente a la imagen primero usando e background image,luego el rgba y por ultimo pongo el url de mi imagen */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+}
+
+.parrafo{
+    background: linear-gradient(to bottom,  rgba(254,144,144,1) 2%,rgba(254,187,187,1) 54%,rgba(254,187,187,1) 54%,rgba(255,92,92,1) 100%); 
+
+    height: 30vh;
+}
