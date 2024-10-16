@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+    /* lo que hace es tner dos propiedades ,el content box y el border box ,QUE CALCULAN EL TAMAÑO TOTAL DE UN ELEMENTO*/
+    /* box-sizing: content-box; */
+}
+
+
+h1{
+    background-color: rgb(48, 214, 42);
+    color: aliceblue;
+   
+
+    /* relleno hacia arriba 
+    padding-top: 20px;
+    /* relleno hacia abajo 
+    padding-bottom: 30px;
+    /* relleno izquierdo 
+    padding-left: 40px;
+    /* relleno derecho 
+    padding-right: 100px; */
+
+    /* combinación o comodín */
+    /* una forma de hacerlo es en la dirección de las agujas del reloj solo con PADDING */
+    
+   /* padding: 20px 100px 40px 30px; */
+
+    /*otra forma es poner padding y dos valores ,donde el primer es de arriba y abajo por igual y el segundo es de los costados por igual  */
+
+    padding: 40px ;
+}
+
+p{
+
+    background-color: blueviolet;
+    
+    /* margen hacia arriba
+    margin-top: 60px;
+    /* margen hacia abajo*/
+    /* margin-bottom: 50px; */
+
+    /* margen hacia la izquierda */
+    /* margin-left: 15px; */
+     /* margen hacia la derecha */
+    /* margin-right: 20px; */ 
+
+    /* también el margin funciona solo de la misma forma que el padding */
+    /* COMO ES CASCADA SE TOMA ESTE MARGIN PARA EL PARRAFO,PESE A QUE ESTE EL COSO UNIVERSAL */
+}
+
+div{
+    /* El border tiene 3 stilos ,la forma del borde ,el grosor del borde y el color */
+
+    border: solid 10px crimson;
+    /* width: 200px; */
+    padding: 20px;
+    
+}
+
+ul{
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    /* funciona para darle un redondeo al borde*/
+    background-color: rgb(236, 216, 34);
+    color: rgb(197, 26, 154);
+    width: 30%;
+    
+    
+}
+
+.texto{
+    background-color: blue;
+    display: block;
+    color: aliceblue;
+}
