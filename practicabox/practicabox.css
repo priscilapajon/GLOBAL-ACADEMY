@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: pink;
+}
+.titulo{
+
+    text-align: center;
+}
+
+span{
+    color:palevioletred;
+    font-size: 15px;
+}
+.links{ 
+    color: black;
+    text-decoration: none;
+   
+}
+
+.hero{
+
+    background-image: url(pexels-pixabay-355748.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub{
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+    text-shadow: blue 2px 3px 10px;
+}
+
+.formu{
+    background: rgb(195,34,116);
+background: linear-gradient(0deg, rgba(195,34,116,1) 0%, rgba(45,238,253,1) 100%);
+}
+
+.legenda{
+    font-style: oblique;
+}
