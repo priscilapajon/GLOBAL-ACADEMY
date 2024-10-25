@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* El display siempre se agrega a la caja padre ,que en este caso es CONTENEDOR */
+
+.contenedor{
+    background-color: rgb(71, 121, 104);
+    display: flex;
+    height: 50vh;
+    /* al hacerlo asi lo pongo una al lado de la otra ,para asi podewr acomodarla como yo quiero */
+    justify-content: space-evenly; /*centrado del eje x*/ 
+    align-items: center; /*centrado del eje y*/ 
+    flex-wrap: wrap; /* para que las cajas sean de una fila , si no se cumplen las condiciones de la flexbox , las acomoda en columnas */
+    gap: 20px 0;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* por defecto del navegador son en bloque (colum),por lo tanto quedan en columnas ,pero al ponerlas en flex cambia el comportamiento y las pone una al lado de la otra en una etiqueta en linea (row) */
+.uno{
+    background-color: antiquewhite;
+}
+.dos{
+    background-color: burlywood;
+}
+.tres{
+    background-color: chocolate;
+}
+
+.cuatro{
+    background-color: darkgoldenrod;
+}
+.cinco{
+    background-color: darkkhaki;
+}
+.seis{
+    background-color: darkolivegreen;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+.padre{
+    background-color: lightblue;
+    display: grid;
+    /* filas */
+    grid-template-rows: 300px 300px 300px;
+    /* columnas */
+    grid-template-columns: 300px 300px 300px;
+    /* centrarlas */
+    /* justify-content: center;
+    align-items: center; */
+
+    grid-template-areas:  /*con esto le digo que fila y comlunas quiero que ocupe y quien las ocupe*/
+    "uno dos tres"
+    "cuatro cinco seis"
+    "siete ocho nueve";
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    font-size: 70px;
+}
+
+.uno{
+    background-color: orange;
+    grid-area: tres;
+    /* de esta forma le digo que el uno se vaya al lugar del tres */
+}
+
+.dos{
+    background-color: yellow;
+    grid-area: nueve;
+}
+
+.tres{
+    background-color: red;
+}
+
+.cuatro{
+    background-color: purple;
+}
+
+.cinco{
+    background-color: green;
+}
+
+.seis{
+    background-color: blue;
+}
+
+.siete{
+    background-color: pink;
+}
+
+.ocho{
+    background-color: gray;
+}
+
+.nueve{
+    background-color: lime;
+}
+
+/* segunda sección del ejemplo */
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 300px 500px;
+    grid-template-areas: 
+    "principal secundaria"
+    "terciaria secundaria";
+
+}
+.principal{
+    background-color: rgb(248, 133, 91);
+    width: 100%;
+    height: 100%;
+    grid-area: principal;
+}
+.secundaria{
+    background-color: rgb(198, 154, 240);
+    width: 100%;
+    height: 100%;
+    grid-area: secundaria;
+}
+.terciaria{
+    background-color: rgb(191, 253, 66);
+    width: 100%;
+    height: 100%;
+    grid-area: terciaria;
+}
